@@ -1,11 +1,5 @@
 import boto3
 
-### 리소스 Describe 용도 Template 코드 입니다.
-### 필요에 따라 client 정보와 response에서 가져올 Data 정보를 수정해야 합니다.
-### Output은 Dict 로 이루어진 List 자료구조로 return 해야 정상 동작합니다.
-### Dict의 Key 값은 해당 Data의 식별자로서 Export 될 때 CSV 파일의 상단 Column 명이 됩니다.
-
-
 def vpc(logger,credentials,account,account_name):
     logger.info(f"{account_name} >> Start Describing {vpc.__name__}...")
 

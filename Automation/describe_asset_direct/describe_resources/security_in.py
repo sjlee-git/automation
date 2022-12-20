@@ -1,7 +1,7 @@
 import boto3
 
 def security_in(logger,credentials,account,account_name):
-    logger.info(f"{account_name} >> Start Describing EC2 Instances...")
+    logger.info(f"{account_name} >> Start Describing Security Groups...")
 
     output = []
 
