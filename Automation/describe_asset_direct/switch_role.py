@@ -6,7 +6,7 @@ def get_session(key,account,account_type):
     
     role_arn = ''
 
-    if account_type == "game" or account == "802695694910":
+    if account_type == "game" or account == "000000000000":
         role_arn = "arn:aws:iam::"+account+":role/mgmt_infra"
     elif account_type == "platform":
         role_arn = "arn:aws:iam::"+account+":role/console-mgmt-admin"
